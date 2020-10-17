@@ -10,11 +10,12 @@ const crearInputFileHtml = () => {
     <hr>
 
     <laberl>Selecciona una fotografía: </label>
-    <input type="file" />
+    <input type="file" "/>
 
     <br>
     <img id="foto" class="img-thumbnail src="">
     `;
+    //accept="image/png, image/jpeg
     const div = document.createElement('div');
     div.innerHTML = html;
     body.append(div);
@@ -23,7 +24,7 @@ const crearInputFileHtml = () => {
     imgFoto = document.querySelector('#foto');
 }
 
-const crearListarFilesHtml = () => {
+/* onst crearListarFilesHtml = () => {
 
     const html = `
     
@@ -38,7 +39,7 @@ const crearListarFilesHtml = () => {
     div.innerHTML = html;
     body.append(div);
 
-}
+} */
 
 const eventos = () => {
 
@@ -52,6 +53,6 @@ const eventos = () => {
 }
 export const init = () =>{
     crearInputFileHtml();
-    crearListarFilesHtml();
+   // crearListarFilesHtml();
     eventos();
 }
