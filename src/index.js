@@ -1,10 +1,10 @@
 
 //import {obtenerChiste} from './js/http-provider';
 //import {init} from './js/chistes-pages';
-import {obtenerUsuarios} from './js/http-provider';
-import {init} from './js/usuarios-page';
+//import {obtenerUsuarios} from './js/http-provider';
+//import {init} from './js/usuarios-page';
 //import * as CRUD from './js/crud-provider' // importar al objeto CRUD todas las propiedades
-//import { init } from './js/archivos-page';
+import { init } from './js/archivos-page';
 /* 
 fetch(jokeUrl).then(resp => {
     console.log(resp);
@@ -25,8 +25,8 @@ fetch(jokeUrl).then(resp => {
 
 //init();
 
-obtenerUsuarios().then(console.log);
-init();
+//obtenerUsuarios().then(console.log);
+//init();
 /* 
 CRUD.getUsuario(2).then(console.log);
 
@@ -47,4 +47,4 @@ CRUD.actualizarUsuario(1,{
 
 CRUD.borrarUsuario(1).then(console.log); */
 
-//init();
+init();
